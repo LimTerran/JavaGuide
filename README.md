@@ -144,8 +144,9 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 1. **I/O** ：[BIO,NIO,AIO 总结 ](docs/java/BIO-NIO-AIO.md)
 2. **Java 8**  ：[Java 8 新特性总结](docs/java/What's%20New%20in%20JDK8/Java8Tutorial.md)、[Java 8 学习资源推荐](docs/java/What's%20New%20in%20JDK8/Java8教程推荐.md)、[Java8 forEach 指南](docs/java/What's%20New%20in%20JDK8/Java8foreach指南.md)
-3.  Java编程规范：**[Java 编程规范以及优雅 Java 代码实践总结](docs/java/Java编程规范.md)** 、[告别编码5分钟，命名2小时！史上最全的Java命名规范参考！](docs/java/java-naming-conventions.md)
-4. 设计模式 :[设计模式系列文章](docs/system-design/设计模式.md)
+3. **Java9~Java14** : [一文带你看遍JDK9~14的重要新特性！](./docs/java/jdk-new-features/new-features-from-jdk8-to-jdk14.md)
+4. Java编程规范：**[Java 编程规范以及优雅 Java 代码实践总结](docs/java/Java编程规范.md)** 、[告别编码5分钟，命名2小时！史上最全的Java命名规范参考！](docs/java/java-naming-conventions.md)
+5. 设计模式 :[设计模式系列文章](docs/system-design/设计模式.md)
 
 ## 网络
 
@@ -195,7 +196,6 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 * [Redis 常见问题总结](docs/database/Redis/Redis.md)
 * **Redis 系列文章合集：**
-
   1. [5种基本数据结构](docs/database/Redis/redis-collection/Redis(1)——5种基本数据结构.md)
   2. [跳跃表](docs/database/Redis/redis-collection/Redis(2)——跳跃表.md)
   3. [分布式锁深入探究](docs/database/Redis/redis-collection/Redis(3)——分布式锁深入探究.md) 、 [Redlock分布式锁](docs/database/Redis/Redlock分布式锁.md) 、[如何做可靠的分布式锁，Redlock真的可行么](docs/database/Redis/如何做可靠的分布式锁，Redlock真的可行么.md)
@@ -205,6 +205,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
   7. [持久化](docs/database/Redis/redis-collection/Redis(7)——持久化.md)
   8. [发布订阅与Stream](docs/database/Redis/redis-collection/Redis(8)——发布订阅与Stream.md)
   9. [史上最强【集群】入门实践教程](docs/database/Redis/redis-collection/Redis(9)——集群入门实践教程.md)
+  10. [Redis数据类型、编码、底层数据结构的关系看这篇](docs/database/Redis/redis-collection/Redis(10)——Redis数据类型、编码、数据结构的关系.md)
 
 ## 系统设计
 
@@ -350,7 +351,7 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 ### 其他
 
-- [阿里云服务器使用经验](docs/tools/阿里云服务器使用经验.md)
+- [【原创】如何使用云服务器？希望这篇文章能够对你有帮助！](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247485738&idx=1&sn=f97e91a50e444944076c30b0717b303a&chksm=cea246e1f9d5cff73faf6a778b147ea85162d1f3ed55ca90473c6ebae1e2c4d13e89282aeb24&token=406194678&lang=zh_CN#rd)
 
 ## 面试指南
 
@@ -376,7 +377,8 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 ### 书单推荐
 
-- [算法相关](docs/books/alogorithm.md)
+- **[多线程学习书籍+资源推荐](./docs/java/Multithread/多线程学习指南.md)**
+- **[算法学习书籍+资源推荐](docs/dataStructures-algorithms/算法学习资源推荐.md)**  
 - **[Java程序员必备书单](docs/books/java.md)**
 
 ### 实战项目推荐
@@ -411,7 +413,7 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 Markdown 格式参考：[Github Markdown格式](https://guides.github.com/features/mastering-markdown/)，表情素材来自：[EMOJI CHEAT SHEET](https://www.webpagefx.com/tools/emoji-cheat-sheet/)。
 
-利用 docsify 生成文档部署在 Github pages: [docsify 官网介绍](https://docsify.js.org/#/)
+利用 docsify 生成文档部署在 Github pages: [docsify 官网介绍](https://docsify.js.org/#/) ，另见[《Guide哥手把手教你搭建一个文档类型的网站!免费且高速！》](https://mp.weixin.qq.com/s?__biz=Mzg2OTA0Njk0OA==&mid=2247486555&idx=2&sn=8486026ee9f9ba645ff0363df6036184&chksm=cea24390f9d5ca86ff4177c0aca5e719de17dc89e918212513ee661dd56f17ca8269f4a6e303&token=298703358&lang=zh_CN#rd) 。
 
 ### 关于转载
 
