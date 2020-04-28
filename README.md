@@ -93,8 +93,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 1. **[Java 基础知识](docs/java/Java基础知识.md)**
 2. **[Java 基础知识疑难点/易错点](docs/java/Java疑难点.md)**
-3. [【加餐】一些重要的Java程序设计题](docs/java/Java程序设计题.md)
-4. [【选看】J2EE 基础知识](docs/java/J2EE基础知识.md)
+3. [【选看】J2EE 基础知识](docs/java/J2EE基础知识.md)
 
 **重要知识点详解：**
 
@@ -105,6 +104,7 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 **其他：**
 
 1. [JAD反编译](docs/java/JAD反编译tricks.md)
+2. [手把手教你定位常见Java性能问题](./docs/java/手把手教你定位常见Java性能问题.md)
 
 ### 容器
 
@@ -184,13 +184,19 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 ### MySQL
 
+**总结：**
+
 1. **[【推荐】MySQL/数据库 知识点总结](docs/database/MySQL.md)**
 2. **[阿里巴巴开发手册数据库部分的一些最佳实践](docs/database/阿里巴巴开发手册数据库部分的一些最佳实践.md)**
 3. **[一千行MySQL学习笔记](docs/database/一千行MySQL命令.md)**
 4. [MySQL高性能优化规范建议](docs/database/MySQL高性能优化规范建议.md)
-5. [数据库索引总结1](docs/database/MySQL%20Index.md)、[数据库索引总结2](docs/database/数据库索引.md)
-6. [事务隔离级别(图文详解)](docs/database/事务隔离级别(图文详解).md)
-7. [一条SQL语句在MySQL中如何执行的](docs/database/一条sql语句在mysql中如何执行的.md)
+
+**重要知识点：**
+
+1. [数据库索引总结1](docs/database/MySQL%20Index.md)、[数据库索引总结2](docs/database/数据库索引.md)
+2. [事务隔离级别(图文详解)](docs/database/事务隔离级别(图文详解).md)
+3. [一条SQL语句在MySQL中如何执行的](docs/database/一条sql语句在mysql中如何执行的.md)
+4. **[关于数据库中如何存储时间的一点思考](docs/database/关于数据库存储时间的一点思考.md)**
 
 ### Redis
 
@@ -215,17 +221,14 @@ Github用户如果访问速度缓慢的话，可以转移到[码云](https://git
 
 ### 常用框架
 
-#### Spring
+#### Spring/SpringBoot
 
-1. [Spring 学习与面试](docs/system-design/framework/spring/Spring.md)
-2. **[Spring 常见问题总结](docs/system-design/framework/spring/SpringInterviewQuestions.md)**
-3. [Spring中 Bean 的作用域与生命周期](docs/system-design/framework/spring/SpringBean.md)
-4. [SpringMVC 工作原理详解](docs/system-design/framework/spring/SpringMVC-Principle.md)
-5. [Spring中都用到了那些设计模式?](docs/system-design/framework/spring/Spring-Design-Patterns.md)
-
-#### SpringBoot
-
-- **[SpringBoot 指南/常见面试题总结](https://github.com/Snailclimb/springboot-guide)**
+1. **[Spring 常见问题总结](docs/system-design/framework/spring/SpringInterviewQuestions.md)**
+2. **[Spring/Spring常用注解总结！安排！](./docs/system-design/framework/spring/spring-annotations.md)**
+3. **[SpringBoot 指南/常见面试题总结](https://github.com/Snailclimb/springboot-guide)**
+4. [Spring中 Bean 的作用域与生命周期](docs/system-design/framework/spring/SpringBean.md)
+5. [SpringMVC 工作原理详解](docs/system-design/framework/spring/SpringMVC-Principle.md)
+6. [Spring中都用到了那些设计模式?](docs/system-design/framework/spring/Spring-Design-Patterns.md)
 
 #### MyBatis
 
@@ -377,8 +380,6 @@ SSO(Single Sign On)即单点登录说的是用户登陆多个子系统的其中�
 
 ### 书单推荐
 
-- **[多线程学习书籍+资源推荐](./docs/java/Multithread/多线程学习指南.md)**
-- **[算法学习书籍+资源推荐](docs/dataStructures-algorithms/算法学习资源推荐.md)**  
 - **[Java程序员必备书单](docs/books/java.md)**
 
 ### 实战项目推荐
